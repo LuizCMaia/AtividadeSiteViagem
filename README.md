@@ -23,6 +23,6 @@ Montar o site de viagens "ExploreMundo" com base em uma imagem de referência, i
 *(Opcional: Você pode colocar prints do seu site pronto aqui depois!)*
 
 ## 👨‍💻 Autor
-* **Luiz Miguel Caixêta Maia** Curso:
-* Sistemas de Informação/Programação para Web
+* **Luiz Miguel Caixêta Maia**
+* Curso: Sistemas de Informação/Programação para Web
 * Instituição: Centro Universitário Euro (UNIEURO)
