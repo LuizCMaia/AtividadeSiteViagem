@@ -2,6 +2,8 @@
 
 Projeto acadêmico de desenvolvimento web front-end, focado na criação de uma interface responsiva e moderna para uma agência de viagens fictícia, seguindo um layout de referência.
 
+![Modelo de Referência](img/modeloreferencia.png)
+
 ## 🔗 Link do Projeto ao Vivo
 [Insira aqui o link do seu GitHub Pages após a publicação, ex: https://seu-usuario.github.io/site-viagens]
 
