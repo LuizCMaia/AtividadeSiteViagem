@@ -5,7 +5,7 @@ Projeto acadêmico de desenvolvimento web front-end, focado na criação de uma 
 ![Modelo de Referência](img/modeloreferencia.png)
 
 ## 🔗 Link do Projeto ao Vivo
-[(https://luizcmaia.github.io/AtividadeSiteViagem/)]
+https://luizcmaia.github.io/AtividadeSiteViagem/
 
 ## 🎯 Objetivo da Atividade
 Montar o site de viagens "ExploreMundo" com base em uma imagem de referência, implementando:
