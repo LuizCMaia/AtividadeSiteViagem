@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --azul-principal: #3282b8;
+    --azul-escuro: #1b4b72;
+    --laranja-botao: #f37121;
+    --laranja-hover: #d95e16;
+    --fundo-cinza: #f4f4f4;
+    --fundo-contato: #e0e9ed;
+}
+
+/* =========================================
+   2. CABEÇALHO (NAVBAR)
+   ========================================= */
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    background: linear-gradient(to bottom, #4a90e2, #2c7ac9); 
+    padding: 20px 60px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo img {
+    height: 30px; 
+}
+
+.navbar ul {
+    list-style: none; 
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* =========================================
+   3. BANNER PRINCIPAL (HERO)
+   ========================================= */
+
+.hero {
+
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+        url('img/imgfundo.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); 
+}
+
+/* =========================================
+   4. BOTÕES (LARANJA E AZUL)
+   ========================================= */
+.btn-orange {
+    background-color: var(--laranja-botao);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.btn-orange:hover {
+    background-color: var(--laranja-hover);
+}
+
+/* =========================================
+   5. GRID DOS DESTINOS (CARDS)
+   ========================================= */
+.destinations {
+    background-color: var(--fundo-cinza);
+    padding: 40px 20px;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    overflow: hidden;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; 
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.botao-centralizado {
+    text-align: center;
+    margin-top: 30px;
+}
+/* =========================================
+   6. SOBRE NÓS
+   ========================================= */
+.about {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: white;
+}
+
+.about p {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #555;
+}
+
+.titulo-secao h2, .titulo-secao-esquerda h2 {
+    color: var(--azul-escuro);
+    margin-bottom: 10px;
+}
+
+.titulo-secao hr {
+    width: 60px;
+    margin: 0 auto; 
+    border: 2px solid var(--azul-escuro); 
+}
+
+.titulo-secao-esquerda hr {
+    width: 60px;
+    border: 2px solid var(--azul-escuro);
+    margin-bottom: 25px;
+}
+
+/* =========================================
+   7. CONTATO (FORMULÁRIO E MAPA)
+   ========================================= */
+.contact-area {
+    display: flex; 
+    justify-content: center;
+    gap: 60px; 
+    background-color: var(--fundo-contato); 
+    padding: 60px 20px;
+}
+
+.form-container, .info-container {
+    width: 100%;
+    max-width: 450px; 
+}
+
+
+.form-container form {
+    display: flex;
+    flex-direction: column; 
+    gap: 15px; 
+}
+
+.form-container input, .form-container textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.form-container textarea {
+    height: 120px;
+    resize: none; 
+}
+
+.btn-blue {
+    background-color: #0073e6; 
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-start; 
+    transition: 0.3s;
+}
+
+.btn-blue:hover {
+    background-color: #005bb5; 
+}
+
+.info-container img {
+    width: 100%; 
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.contato-info p {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+    margin-bottom: 10px;
+    color: #1b4b72;
+    font-weight: bold;
+}
+
+.contato-info img {
+    width: 20px; 
+    margin: 0;
+}
+
+/* =========================================
+   8. RODAPÉ (FOOTER)
+   ========================================= */
+footer {
+    background-color: #33678c; 
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
