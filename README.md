@@ -19,9 +19,6 @@ Montar o site de viagens "ExploreMundo" com base em uma imagem de referência, i
 * **CSS3:** Estilização, variáveis de cores, efeitos de hover.
 * **Flexbox & CSS Grid:** Para o alinhamento responsivo dos menus, cards de destinos e formulário de contato.
 
-## 📸 Capturas de Tela
-*(Opcional: Você pode colocar prints do seu site pronto aqui depois!)*
-
 ## 👨‍💻 Autor
 * **Luiz Miguel Caixêta Maia**
 * Curso: Sistemas de Informação/Programação para Web
